@@ -1,3 +1,5 @@
+const dotenv = require("dotenv");
+require("dotenv").config();
 const express = require("express");
 const connectDB = require("./db");
 const Link = require("./Link");
